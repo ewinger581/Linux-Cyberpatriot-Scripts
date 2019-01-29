@@ -7,6 +7,6 @@ sed '/nobody/d' /root/userlist.txt
 for i in $(cat /root/userlist.txt)
 do
 echo $i 
-echo "$i":Tigertiger1! | /usr/sbin/chpasswd
+echo "$i":Cyb3rp@t! | /usr/sbin/chpasswd
 echo; echo "User $i's password changed!"
 done
