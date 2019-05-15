@@ -1,5 +1,7 @@
-#!/bin/bash/
-Sudo update-manager 
+#!/bin/bash
+
+#Starts GUI update manager
+sudo update-manager
 
 # Run updates
 echo -n "Would you like to run updates now? [Y/n] "
@@ -8,8 +10,8 @@ if [[ $option =~ ^[Yy]$ ]]
 then
   apt-get update
   apt-get upgrade
-  done
-else 
-  done 
+else
+  exit
 fi
- 
+  exit
+
