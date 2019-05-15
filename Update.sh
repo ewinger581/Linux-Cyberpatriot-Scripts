@@ -12,5 +12,4 @@ then
 else 
   done 
 fi
-  done
-done
+ 
