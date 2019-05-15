@@ -1,15 +1,16 @@
-#!/bing/bash/
+#!/bin/bash/
 Sudo update-manager 
 
 # Run updates
 echo -n "Would you like to run updates now? [Y/n] "
-read option
+read -r option
 if [[ $option =~ ^[Yy]$ ]]
 then
   apt-get update
   apt-get upgrade
-else
-
+  done
+else 
+  done 
 fi
-
+  done
 done
