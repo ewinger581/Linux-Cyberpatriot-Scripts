@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#### Run pass.sh first! ####
+
+echo -n "Are any of these users no bueno? [Y/n] "
+read -r option
+if [[ $option =~ ^[Yy]$ ]]
+then
+echo -n "name of users"
+read -r option >> /home/baduser.txt
+else
+  exit
+fi
+  exit
