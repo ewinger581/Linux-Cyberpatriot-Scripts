@@ -5,7 +5,8 @@ echo -n "Would you like to remove unathorized users? [Y/n] "
 read -r option
 if [[ $option =~ ^[Yy]$ ]]
 then
-  awk -F':' 'NR==FNR{s[$1]++;next}!s[$1]{print $1}' userlist.txt  /etc/passwd
+  cut -d : -f 1 /etc/passwd > userlist.txt
+  #awk -F':' 'NR==FNR{s[$1]++;next}!s[$1]{print $1}' userlist.txt  /etc/passwd
   cat userlist.txt
   ## Comment users out in /etc/passwd file
 else
