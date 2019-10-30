@@ -72,6 +72,11 @@ ufw allow 8200
  apt remove boopsuite
  apt remove Bully
  apt remove weevely3
+ touch BadFiles.txt
+ locate password.*
+ locate .txt > BadFiles.txt
+ locate .mp3 > BadFiles.txt
+ locate .mp4 > BadFiles.txt
 
 
 
