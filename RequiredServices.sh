@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #### uwu ####
-echo -n "is ssh a required service? [Y/n] "
+echo -n "Is SSH a required service? [Y/n] "
 read -r option
 if [[ $option =~ ^[Yy]$ ]]
 then
