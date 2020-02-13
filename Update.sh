@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#My most beutifull creation
 #Starts GUI update manager
 sudo update-manager
 
