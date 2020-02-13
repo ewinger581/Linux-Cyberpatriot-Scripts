@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#ur a bum
 sudo apt install ufw -y
 ufw disable
 ufw reset
