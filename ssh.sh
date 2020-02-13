@@ -1,4 +1,5 @@
 #!/bin/bash
+#idek if this thing works but
 apt install openssh-server
 # Set /etc/ssh/sshd_config ownership and access permissions
 chown root:root /etc/ssh/sshd_config
