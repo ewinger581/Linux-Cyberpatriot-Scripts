@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #### Run pass.sh first! ####
+#No worko, if u get to worko let me know
 echo -n "Would you like to remove unathorized users? [Y/n] "
 read -r option
 if [[ $option =~ ^[Yy]$ ]]
